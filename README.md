@@ -31,8 +31,9 @@ Production-ready R pipeline integrating 4 government APIs (CartoCiudad, Nominati
 **[Customer Churn ML — Telco](https://github.com/tommaso-accornero/churning-customers-ml)**  
 Supervised ML pipeline on IBM Telco dataset (7,043 records): churn classification with Random Forest, LASSO, and SVM, and total charges regression (R²=0.91). Focus on class imbalance and interpretable business insight. `R` `caret` `glmnet`
 
-**[IKEA Furniture ML Models](https://github.com/tommaso-accornero/ikea-furniture-analysis)**  
-Price prediction (R²=0.74) and discount classification on 3,694 products using LASSO and Random Forest in R. `R` `Machine Learning`
+**[Product Space — Network Analysis of Global Trade Complexity](https://github.com/tommaso-accornero/product-space-analysis)**
+Reproduced Hidalgo & Hausmann (2007) using Python and NetworkX. Structural analysis of 774 economic products: power-law degree distribution, Louvain community detection 
+(35 sectors, modularity=0.76), centrality analysis, and configuration model test (Z=160). Python NetworkX Network Science
 
 **[Roma Acceptance in the EU — Multilevel Analysis](https://github.com/tommaso-accornero/roma-multilevel-eu)**  
 Multilevel model (lme4) on Eurobarometer 493 data — 27,438 respondents across 28 EU countries. Multiple imputation via mice. Individual and country-level drivers of Roma workplace acceptance. `R` `lme4` `Survey Methods`
