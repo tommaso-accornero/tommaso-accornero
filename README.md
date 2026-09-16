@@ -31,6 +31,10 @@ ELO ratings back to 1994, a Poisson expected-goals model, and manual overrides f
 PCA + hierarchical and K-means clustering on 254 EU NUTS-2 regions to identify structural typologies of degrowth readiness. Validated externally against CO₂ emissions and life expectancy.
 `R` `Eurostat` `ggplot2`
 
+**[Italian Wine Export Market Analysis](https://github.com/tommaso-accornero/wine-export-market-analysis)**
+Panel regression on 103 wine-importing countries (615 country-year observations, 2018–2024, UN Comtrade + World Bank) testing whether GDP per capita predicts Italian wine market share. Found a threshold near $8,000 GDP per capita — below it, income growth barely moves market share; above it, the effect more than doubles. Fixed-effects specification confirmed via Hausman test, with regional and robustness checks throughout. Grew up around this problem before I had the tools to study it properly.
+`R` `plm` `Panel Data`
+
 **[Product Space — Network Analysis of Global Trade Complexity](https://github.com/tommaso-accornero/product-space-analysis)**
 Reproduced Hidalgo & Hausmann (2007) using Python and NetworkX. Structural analysis of 774 economic products: power-law degree distribution, Louvain community detection (35 sectors, modularity = 0.76), centrality analysis, configuration model test (Z = 160).
 `Python` `NetworkX` `Network Science`
