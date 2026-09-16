@@ -23,17 +23,17 @@ I use R, Python, and SQL to turn messy social and economic data into research I 
 NLP classification of ~12,000 IMF loan conditions, 1980–2024, testing whether conditionality scope expanded over time. Graded 10/10, cum laude pending.
 `Python` `BERT` `R`
 
-**[World Cup 2026 Prediction Model](https://github.com/tommaso-accornero/wc2026-prediction)**
-ELO ratings back to 1994, a Poisson expected-goals model, and manual overrides for the ~16 teams where the numbers miss what watching too much football actually tells you, carried through the knockouts with a bracket simulator. Finished top 100 of ~6,600 entries in a DataCamp forecasting competition. (Model has Spain winning it all!)
-`R` `Poisson` `Forecasting`
+**[Italian Wine Export Market Analysis](https://github.com/tommaso-accornero/wine-export-market-analysis)**
+Panel regression on 103 wine-importing countries (615 country-year observations, 2018–2024, UN Comtrade + World Bank) testing whether GDP per capita predicts Italian wine market share. Found a threshold near $8,000 GDP per capita. Below that, income growth barely moves market share; above it, the effect more than doubles. Fixed-effects specification confirmed via Hausman test, with regional and robustness checks throughout. Grew up around this problem before I had the tools to study it properly.
+`R` `plm` `Panel Data`
 
 **[European Degrowth Typology](https://github.com/tommaso-accornero/european-regional-degrowth-typology)**
 PCA + hierarchical and K-means clustering on 254 EU NUTS-2 regions to identify structural typologies of degrowth readiness. Validated externally against CO₂ emissions and life expectancy.
 `R` `Eurostat` `ggplot2`
 
-**[Italian Wine Export Market Analysis](https://github.com/tommaso-accornero/wine-export-market-analysis)**
-Panel regression on 103 wine-importing countries (615 country-year observations, 2018–2024, UN Comtrade + World Bank) testing whether GDP per capita predicts Italian wine market share. Found a threshold near $8,000 GDP per capita — below it, income growth barely moves market share; above it, the effect more than doubles. Fixed-effects specification confirmed via Hausman test, with regional and robustness checks throughout. Grew up around this problem before I had the tools to study it properly.
-`R` `plm` `Panel Data`
+**[World Cup 2026 Prediction Model](https://github.com/tommaso-accornero/wc2026-prediction)**
+ELO ratings back to 1994, a Poisson expected-goals model, and manual overrides for the ~16 teams where the numbers miss what watching too much football actually tells you, carried through the knockouts with a bracket simulator. Finished top 100 of ~6,600 entries in a DataCamp forecasting competition. (Model has Spain winning it all!)
+`R` `Poisson` `Forecasting`
 
 **[Product Space — Network Analysis of Global Trade Complexity](https://github.com/tommaso-accornero/product-space-analysis)**
 Reproduced Hidalgo & Hausmann (2007) using Python and NetworkX. Structural analysis of 774 economic products: power-law degree distribution, Louvain community detection (35 sectors, modularity = 0.76), centrality analysis, configuration model test (Z = 160).
